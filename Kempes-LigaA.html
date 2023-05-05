@@ -1,0 +1,510 @@
+<html>
+    <head>
+        <title>Kempes Master League | Liga A</title>
+        <link rel="icon" href="Escudos/Logo-Kempes-(Anti-patria).png">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+        <link rel="stylesheet" href="Estilos.css">
+    </head>
+    <body style="margin: 0 auto;">
+        <header class="container-fluid sticky-header barra-inicio">
+            <div class="row align-items-center">
+                <div class="col-4 col-md-1 h-100">
+                    <a href="Index.html">
+                        <img class="img-fluid" src="Escudos/Logo-Kempes-(Anti-patria).png"  width="95px" height="95px">
+                    </a>
+                </div>
+                <div class="col-5 d-none d-md-block h-100 ps-5">
+                    <img src="PNGs/twitch.png" width="30px" height="30px">
+                    <img src="PNGs/twitter.png" width="30px" height="30px">
+                    <img src="PNGs/instagram.png" width="30px" height="30px">
+                </div>
+                <div class="col-8 col-md-6 h-100">
+                    <div class="input-group rounded align-items-center justify-content-end">
+                        <div class="col-6">
+                            <input type="search" class="form-control px-3" placeholder="Ingresa Equipo, Jugador, División...">
+                        </div>
+                        <div>
+                            <span>
+                                <i><img class="img-fluid buscador-icon" src="PNGs/search.svg" width="30px" height="30px"></i>
+                            </span>
+                        </div>
+                        <div>
+                            <span>
+                                <i><img class="menu-hamburguesa-icon d-block d-md-none img-fluid" src="PNGs/Menu-hamburguesa.svg" width="30px" height="30px"></i>
+                            </span>
+                        </div>
+                        <div>
+                            <span>
+                                <i><img class="login-solo-icon d-block d-md-none img-fluid" src="PNGs/person.svg" width="30px" height="30px"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="row d-none d-md-block navbar navbar-expand navegador">
+                <div class="container-fluid bg-black">
+                    <ul class="clase-navegador-ul d-flex align-items-center">
+                        <a class="w-auto px-3 nav-item links-navegacion" href="Index.html"> <img class="icon-home" src="PNGs/home.svg" width="30px" height="30px"></a>
+                        <a class="w-auto px-3 nav-item links-navegacion" href="#">COMPETICIONES <img class="expand-more" src="PNGs/expand_more.svg" width="30px" height="30px"></a>
+                        <a class="w-auto px-3 nav-item links-navegacion" href="#">CLUBES <img class="expand-more" src="PNGs/expand_more.svg" width="30px" height="30px"></a>
+                        <a class="w-auto px-3 nav-item links-navegacion" href="#">JUGADORES <img class="expand-more" src="PNGs/expand_more.svg" width="30px" height="30px"></a>
+                        <a class="w-auto px-3 nav-item links-navegacion" href="#">TRANSFERENCIAS <img class="expand-more" src="PNGs/expand_more.svg" width="30px" height="30px"></a>
+                    </ul>
+                    <li class="li-button d-flex">
+                        <button class="login"><img src="PNGs/person.svg"> Iniciar Sesión </button>
+                    </li>
+                </div>
+            </nav>
+        </header>
+        <div class="container detalle-liga">
+            <div class="row">
+                <div class="col-3 ms-3 ps-3">
+                    <h1 class="col-12">LIGA A</h1>
+                    <div class="col-12 h-80 w-80"> 
+                        <img class="img-fluid logo-proviso" src="PNGs/Logo LIGA A Provisorio.png"> 
+                    </div>
+                </div>
+                <div class="container col-8 p-4 my-2 estadistica-liga">
+                    <div class="row">
+                        <div class="col-12 col-md-4 d-flex text-center">
+                            <div class="row">
+                                <div class="">
+                                    <h4>Nivel de competición:</h4>    
+                                </div>
+                                <div class="">
+                                    <h1 class="">Máxima Categoría</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 d-flex text-center">
+                            <div class="row">
+                                <div class="">
+                                    <h4>Último Campeón:</h4>    
+                                </div>
+                                <div class="">
+                                    <h2>Uynose</h2>
+                                    <img class="" src="Escudos/UyNoSe.jpeg" width="100px" height="100px">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 d-flex text-center">
+                            <div class="row">
+                                <div class="">
+                                    <h4>Mayor ganador:</h4>    
+                                </div>
+                                <div class="">
+                                    <h2>A la tibia</h2>
+                                    <img class="" src="Escudos/A la tibia.png" width="100px" height="100px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-4">
+            <div class="d-block d-md-flex">
+                <div class="col-12 col-md-7 me-3 fixture" style="flex-grow: 1;">
+                    <div class="mx-1 mb-3 mt-1">
+                        <div class="ps-1 titulo">
+                            <h4>FIXTURE TEMPORADA 22/23</h4>
+                        </div>
+                        <div class="container filtro-temporada">
+                            <div class="row filtro p-2">
+                                <h4 for="" class="col-form-label col-6 text-end">Filtrar por temporada:</h4>
+                                <div class="col-4">
+                                    <select name="temporadas" class="form-select">
+                                        <option selected>Elige una temporada</option>
+                                        <option value="22/23">22/23</option>
+                                        <option value="23/24">23/24</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row filtro p-2">
+                                <h4 for="" class="col-form-label col-6 text-end">Seleccionar fecha:</h4>
+                                <div class="col-4">
+                                    <select name="fechas" class="form-select">
+                                        <option selected>Elige una fecha</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="text-center pb-3">
+                                <div class="col-auto">
+                                    <button class="btn btn-primary" type="submit">Filtrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-1">
+                        <div class="row d-flex align-items-center justify-content-center mb-2 resultado-partido">
+                            <div class="row col-5 text-center">
+                                <h3 class="col-10">Uynose</h3>
+                                <img class="col-2 d-flex img-fluid align-self-center" src="Escudos/UyNoSe.jpeg">
+                            </div>
+                            <div class="col-1 text-center">
+                                2:0
+                            </div>
+                            <div class="row col-5 text-center">
+                                <img class="col-2 d-flex img-fluid align-self-center" src="Escudos/A la tibia.png">
+                                <h3 class="col-10" >A la tibia</h3>
+                            </div>
+                        </div>
+                        <div class="text-center mb-2 fecha-partido">
+                            Sábado, <span class="celeste">4 de Marzo 2023</span>- 15:30
+                        </div>
+                        <div class="">
+                            <table class="table text-center">
+                                <tr class="tabla-evento">
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class="">Eventos</td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                </tr>
+                                <tr class="evento-fondo">
+                                    <td class="">Inserte nombre</td>
+                                    <td class="align-middle"><img src="PNGs/pelota.png" height="15px" width="15px"></td>
+                                    <td class="">50'</td>
+                                    <td class="">1:0</td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                </tr>
+                                <tr class="evento-fondo">
+                                    <td class="">Inserte nombre</td>
+                                    <td class="align-middle"><img src="PNGs/pelota.png" height="15px" width="15px"></td>
+                                    <td class="">55'</td>
+                                    <td class="">2:0</td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                </tr>
+                                <tr class="evento-fondo">
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class="">2:0</td>
+                                    <td class="">55'</td>
+                                    <td class="align-middle"><img src="PNGs/roja.png" height="15px" width="15px"></td>
+                                    <td class="">Inserte nombre</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="m-1">
+                        <div class="row d-flex align-items-center justify-content-center mb-2 resultado-partido">
+                            <div class="row col-5 text-center">
+                                <h3 class="col-10">Uynose</h3>
+                                <img class="col-2 d-flex img-fluid align-self-center" src="Escudos/UyNoSe.jpeg">
+                            </div>
+                            <div class="col-1 text-center">
+                                2:0
+                            </div>
+                            <div class="row col-5 text-center">
+                                <img class="col-2 d-flex img-fluid align-self-center" src="Escudos/A la tibia.png">
+                                <h3 class="col-10" >A la tibia</h3>
+                            </div>
+                        </div>
+                        <div class="text-center mb-2 fecha-partido">
+                            Sábado, <span class="celeste">4 de Marzo 2023</span>- 15:30
+                        </div>
+                        <div class="">
+                            <table class="table text-center">
+                                <tr class="tabla-evento">
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class="">Eventos</td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                </tr>
+                                <tr class="evento-fondo">
+                                    <td class="">Inserte nombre</td>
+                                    <td class="align-middle"><img src="PNGs/pelota.png" height="15px" width="15px"></td>
+                                    <td class="">50'</td>
+                                    <td class="">1:0</td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                </tr>
+                                <tr class="evento-fondo">
+                                    <td class="">Inserte nombre</td>
+                                    <td class="align-middle"><img src="PNGs/pelota.png" height="15px" width="15px"></td>
+                                    <td class="">55'</td>
+                                    <td class="">2:0</td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                </tr>
+                                <tr class="evento-fondo">
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class="">2:0</td>
+                                    <td class="">55'</td>
+                                    <td class="align-middle"><img src="PNGs/roja.png" height="15px" width="15px"></td>
+                                    <td class="">Inserte nombre</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="m-1">
+                        <div class="row d-flex align-items-center justify-content-center mb-2 resultado-partido">
+                            <div class="row col-5 text-center">
+                                <h3 class="col-10">Uynose</h3>
+                                <img class="col-2 d-flex img-fluid align-self-center" src="Escudos/UyNoSe.jpeg">
+                            </div>
+                            <div class="col-1 text-center">
+                                2:0
+                            </div>
+                            <div class="row col-5 text-center">
+                                <img class="col-2 d-flex img-fluid align-self-center" src="Escudos/A la tibia.png">
+                                <h3 class="col-10" >A la tibia</h3>
+                            </div>
+                        </div>
+                        <div class="text-center mb-2 fecha-partido">
+                            Sábado, <span class="celeste">4 de Marzo 2023</span>- 15:30
+                        </div>
+                        <div class="">
+                            <table class="table text-center">
+                                <tr class="tabla-evento">
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class="">Eventos</td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                </tr>
+                                <tr class="evento-fondo">
+                                    <td class="">Inserte nombre</td>
+                                    <td class="align-middle"><img src="PNGs/pelota.png" height="15px" width="15px"></td>
+                                    <td class="">50'</td>
+                                    <td class="">1:0</td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                </tr>
+                                <tr class="evento-fondo">
+                                    <td class="">Inserte nombre</td>
+                                    <td class="align-middle"><img src="PNGs/pelota.png" height="15px" width="15px"></td>
+                                    <td class="">55'</td>
+                                    <td class="">2:0</td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                </tr>
+                                <tr class="evento-fondo">
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class="">2:0</td>
+                                    <td class="">55'</td>
+                                    <td class="align-middle"><img src="PNGs/roja.png" height="15px" width="15px"></td>
+                                    <td class="">Inserte nombre</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="m-1">
+                        <div class="row d-flex align-items-center justify-content-center mb-2 resultado-partido">
+                            <div class="row col-5 text-center">
+                                <h3 class="col-10">Uynose</h3>
+                                <img class="col-2 d-flex img-fluid align-self-center" src="Escudos/UyNoSe.jpeg">
+                            </div>
+                            <div class="col-1 text-center">
+                                2:0
+                            </div>
+                            <div class="row col-5 text-center">
+                                <img class="col-2 d-flex img-fluid align-self-center" src="Escudos/A la tibia.png">
+                                <h3 class="col-10" >A la tibia</h3>
+                            </div>
+                        </div>
+                        <div class="text-center mb-2 fecha-partido">
+                            Sábado, <span class="celeste">4 de Marzo 2023</span>- 15:30
+                        </div>
+                        <div class="">
+                            <table class="table text-center">
+                                <tr class="tabla-evento">
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class="">Eventos</td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                </tr>
+                                <tr class="evento-fondo">
+                                    <td class="">Inserte nombre</td>
+                                    <td class="align-middle"><img src="PNGs/pelota.png" height="15px" width="15px"></td>
+                                    <td class="">50'</td>
+                                    <td class="">1:0</td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                </tr>
+                                <tr class="evento-fondo">
+                                    <td class="">Inserte nombre</td>
+                                    <td class="align-middle"><img src="PNGs/pelota.png" height="15px" width="15px"></td>
+                                    <td class="">55'</td>
+                                    <td class="">2:0</td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                </tr>
+                                <tr class="evento-fondo">
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class=""></td>
+                                    <td class="">2:0</td>
+                                    <td class="">55'</td>
+                                    <td class="align-middle"><img src="PNGs/roja.png" height="15px" width="15px"></td>
+                                    <td class="">Inserte nombre</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 fixture" style="flex-grow: 1;">
+                    <div class="mx-1 mb-3 mt-1">
+                        <div class="m-1">
+                            <h4 class="mt-1 ps-1 titulo">TABLA LIGA A 22/23</h4>
+                            <table class="mb-1 table tabla-liga-fondo">
+                                <tr class="">
+                                    <td class="text-center">#</td>
+                                    <td class="">Club</td>
+                                    <td class="text-center">Partidos Jugados</td>
+                                    <td class="text-center">Diferencia de Goles</td>
+                                    <td class="text-center">Puntos</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">1</td>
+                                    <td class=""><img class="" src="Escudos/UyNoSe.jpeg" width="20px" height="20px">Uynose</td>
+                                    <td class="text-center">13</td>
+                                    <td class="text-center">25</td>
+                                    <td class="text-center">35</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">2</td>
+                                    <td class=""><img class="clubs-icons" src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                                    <td class="text-center">13</td>
+                                    <td class="text-center">25</td>
+                                    <td class="text-center">35</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">3</td>
+                                    <td class=""><img class="clubs-icons" src="Escudos/Apurofideo.png" width="20px" height="20px">Apurofideo</td>
+                                    <td class="text-center">13</td>
+                                    <td class="text-center">25</td>
+                                    <td class="text-center">35</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">4</td>
+                                    <td class=""><img class="" src="Escudos/Cebollitas.png" width="20px" height="20px">Cebollitas</td>
+                                    <td class="text-center">13</td>
+                                    <td class="text-center">25</td>
+                                    <td class="text-center">35</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">5</td>
+                                    <td class=""><img class="" src="Escudos/Provincianos FC - Cletus.png" width="20px" height="20px">Provincianos FC</td>
+                                    <td class="text-center">13</td>
+                                    <td class="text-center">25</td>
+                                    <td class="text-center">35</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">6</td>
+                                    <td class=""><img class="" src="Escudos/Tercera Posición FC.png" width="20px" height="20px">Tercera Posición FC</td>
+                                    <td class="text-center">13</td>
+                                    <td class="text-center">25</td>
+                                    <td class="text-center">35</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">7</td>
+                                    <td class=""><img class="" src="Escudos/Tiki-Tiki.png" width="20px" height="20px">Tiki-tiki</td>
+                                    <td class="text-center">13</td>
+                                    <td class="text-center">25</td>
+                                    <td class="text-center">35</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">8</td>
+                                    <td class=""><img class="" src="Escudos/Champagne Rose.png" width="20px" height="20px">Champagne Rose</td>
+                                    <td class="text-center">13</td>
+                                    <td class="text-center">25</td>
+                                    <td class="text-center">35</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="mx-1 mb-3 mt-1">
+                        <h4 class="ps-1 titulo">TABLA DE GOLES 22/23</h4>
+                        <table class="table tabla-liga-fondo">
+                            <tr class="">
+                                <td class="">Jugador</td>
+                                <td class="text-center">Club</td>
+                                <td class="text-center">Partidos Jugados</td>
+                                <td class="text-center"><img src="PNGs/pelota.png" width="20px" height="20px"></td>
+                            </tr>
+                            <tr>
+                                <td class="">Inserte nombre</td>
+                                <td class="text-center"><img class="" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                                <td class="text-center">13</td>
+                                <td class="text-center">25</td>
+                            </tr>
+                            <tr>
+                                <td class="">Inserte nombre</td>
+                                <td class="text-center"><img class="" src="Escudos/A la tibia.png" width="20px" height="20px"></td>
+                                <td class="text-center">13</td>
+                                <td class="text-center">25</td>
+                            </tr>
+                            <tr>
+                                <td class="">Inserte nombre</td>
+                                <td class="text-center"><img class="" src="Escudos/Apurofideo.png" width="20px" height="20px"></td>
+                                <td class="text-center">13</td>
+                                <td class="text-center">25</td>
+                            </tr>
+                            <tr>
+                                <td class="">Inserte nombre</td>
+                                <td class="text-center"><img class="" src="Escudos/Cebollitas.png" width="20px" height="20px"></td>
+                                <td class="text-center">13</td>
+                                <td class="text-center">25</td>
+                            </tr>
+                            <tr>
+                                <td class="">Inserte nombre</td>
+                                <td class="text-center"><img class="" src="Escudos/Provincianos FC - Cletus.png" width="20px" height="20px"></td>
+                                <td class="text-center">13</td>
+                                <td class="text-center">25</td>
+                            </tr>
+                            <tr>
+                                <td class="">Inserte nombre</td>
+                                <td class="text-center"><img class="" src="Escudos/Tercera Posición FC.png" width="20px" height="20px"></td>
+                                <td class="text-center">13</td>
+                                <td class="text-center">25</td>
+                            </tr>
+                            <tr>
+                                <td class="">Inserte nombre</td>
+                                <td class="text-center"><img class="" src="Escudos/Tiki-Tiki.png" width="20px" height="20px"></td>
+                                <td class="text-center">13</td>
+                                <td class="text-center">25</td>
+                            </tr>
+                            <tr>
+                                <td class="">Inserte nombre</td>
+                                <td class="text-center"><img class="" src="Escudos/Champagne Rose.png" width="20px" height="20px"></td>
+                                <td class="text-center">13</td>
+                                <td class="text-center">25</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
