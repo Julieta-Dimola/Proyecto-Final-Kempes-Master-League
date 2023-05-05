@@ -132,6 +132,63 @@ html {
   background-color: #FFFFFF;
 }
 
+.container-carrusel {
+  width: 30%;
+  height: 200px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.item-carrusel {
+  height: 100%;
+  position: relative;
+}
+
+.tarjeta-carrusel {
+  height: 100%;
+}
+
+.flechas-carrusel {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#imagen-1 {
+  background-color: aquamarine;
+}
+
+#imagen-2 {
+  background-color: rgb(119, 97, 68);
+}
+
+#imagen-3 {
+  background-color: goldenrod;
+}
+
+.flechas {
+  text-decoration: none;
+}
+
+i {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+i:hover {
+  color: white;
+}
+
+.imagen-prueba {
+  width: 100%;
+  height: 100%;
+}
+
 @media screen and (max-width: 768px) {
   .barra-inicio {
     background-color: #000000;
