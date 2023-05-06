@@ -59,6 +59,25 @@ html{
     color: $color-turquesa;
 }
 
+.dropdown-competiciones{
+    position: relative;
+}
+
+.dropdown-competiciones > .dropdown-menu{
+    width: 100%;
+}
+
+.dropdown-navbar{
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+
+.dropdown-competiciones:hover > .dropdown-menu{
+    display: block;
+    margin-top: 0;
+}
+
 .login{
     margin-top: 3px;
     margin-right: 25px;
